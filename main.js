@@ -11,6 +11,10 @@ let mainWindow
 function createWindow () {
   mainWindow = new BrowserWindow({
     title: app.getName(),
+    width: 1280, 
+    height: 600,
+    resizable: false,
+    fullscreenable: true,
   })
 
   mainWindow.loadURL('https://www.saavn.com/')
