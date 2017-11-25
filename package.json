@@ -1,0 +1,13 @@
+{
+  "name": "saavn",
+  "productName": "Saavn",
+  "version": "0.0.1",
+  "description": "Web app for Saavn",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "1.7.8"
+  }
+}
