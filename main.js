@@ -15,6 +15,7 @@ function createWindow () {
     height: 600,
     resizable: false,
     fullscreenable: true,
+    icon: path.join(__dirname, 'static/Icon.png'),
   })
 
   mainWindow.loadURL('https://www.saavn.com/')
